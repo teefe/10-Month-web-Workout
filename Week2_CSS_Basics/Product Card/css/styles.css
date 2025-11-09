@@ -1,0 +1,24 @@
+.Shoe-Card{
+    background-image: linear-gradient(to right,#a7c957,#2a9d8f);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50vw;
+    height: 50vh;
+    justify-content: space-around;
+}
+.perticulars{
+    display: flex;
+    flex-direction: column;
+    column-gap: 10px;
+}
+img{
+    /*resize: both;
+    overflow: auto;*/
+    width: 50%;
+    height: 50%;
+}
+body{
+    width: 50%;
+    margin: 0 auto;
+}
