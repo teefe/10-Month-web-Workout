@@ -1,0 +1,40 @@
+body{
+    background-color: #fdfffc;
+}
+img{
+    width: 50%;
+    margin-left: 25%;
+}
+.img-div{
+    background-color: #b0a1ba;
+    margin-top: 20px;
+}
+.Card{
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #b8e2c8;
+    height: 450px;
+    width: 350px;
+}
+.buttons,.social-Media{
+    display: flex;
+    justify-content: space-around;
+}
+.last-buttons{
+    background-color: #b0a1ba;
+    width: 110px;
+    height: 40px;
+    border-radius: 30px;
+    border: 2px solid #b8e2c8;
+}
+.icon{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid #b8e2c8;
+    background-color: #b0a1ba;
+}
+h4,.details{
+   align-items: center;
+}
