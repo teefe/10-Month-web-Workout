@@ -1,0 +1,13 @@
+html{
+    background-color: lightgray;
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 50%;
+    margin: 0 auto;
+    font-family: 'Open Sans', sans-serif;
+}
+h2, h4{
+    color: #0078ff;
+}
