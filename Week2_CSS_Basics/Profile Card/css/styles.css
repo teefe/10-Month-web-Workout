@@ -1,21 +1,28 @@
 body{
+    display: flex;
+    justify-content: center;
     background-color: #fdfffc;
 }
 img{
-    width: 50%;
-    margin-left: 25%;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
 }
 .img-div{
+    display: flex;
+    justify-content: center;
     background-color: #b0a1ba;
-    margin-top: 20px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
 }
 .Card{
     display: flex; 
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
     background-color: #b8e2c8;
-    height: 450px;
-    width: 350px;
+    height: 350px;
+    width: 300px;
+    border-radius: 5%;
 }
 .buttons,.social-Media{
     display: flex;
@@ -35,6 +42,11 @@ img{
     border: 2px solid #b8e2c8;
     background-color: #b0a1ba;
 }
-h4,.details{
-   align-items: center;
+h4{
+    font-size: large;
+    font-weight: bolder;
+}
+.details{
+    display: flex;
+    justify-content: center;
 }

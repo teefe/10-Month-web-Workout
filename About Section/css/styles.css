@@ -3,11 +3,56 @@ html{
     margin: 0;
     padding: 0;
 }
-body{
-    width: 50%;
-    margin: 0 auto;
+.body{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
     font-family: 'Open Sans', sans-serif;
+    gap: 10px;
 }
 h2, h4{
     color: #0078ff;
+}
+header, section, footer{
+    background-color: aliceblue;
+}
+header{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column: 1/6;
+    gap: 10px;
+}
+footer{
+grid-column: 1/6;
+}
+img{
+    width: 100px;
+    height: 100px;
+}
+
+/*Stytles specific to the about me page*/
+.about-div{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-size: 1vw;
+    margin-top: 10vh;
+}
+
+.about{
+    display: flex;
+    width: 50vw;
+    height: 50vh;
+    background-color: aliceblue;
+    align-items: center;
+    padding: 20px;
+    font-size: 1.4em;
+    background-color: #c1121f;
+    flex-direction: column;
+}
+div > p{
+    background-color: #f8f9fa;
+}
+div > h2{
+    margin: 0;
+    color: #f8f9fa;
 }
